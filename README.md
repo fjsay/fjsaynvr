@@ -64,7 +64,7 @@ version: '3'
 
 services:
   fjsaynvr:
-    image: fjsay/fjsaynvr:v1.0
+    image: fjsay/fjsaynvr:v3.0
     container_name: fjsaynvr
     restart: always          # 容器异常时自动重启
     network_mode: host       # 使用主机网络，确保访问局域网摄像头
